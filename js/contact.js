@@ -12,7 +12,7 @@ const formSuccess = document.querySelector("#formSuccess")
 function validateForm(event) {
     event.preventDefault();
 
-    if (checkLength(firstName.value, 0) === true) {
+    if (checkLength(firstName.value, 4) === true) {
         firstNameError.style.display = "none";
     } else {
         firstNameError.style.display = "block";
