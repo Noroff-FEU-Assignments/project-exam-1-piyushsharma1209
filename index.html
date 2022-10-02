@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyo</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Hotjar Tracking Code for https://prismatic-bubblegum-a80871.netlify.app/ -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 3004598, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <a href="index.html" class="logo">Piyo</a>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">The Piyo Blog</h2>
+            <span class="home-subtitle">Your source of great blogs</span>
+        </div>
+    </section>
+    <!-- Posts -->
+    <section class="post container">
+        <!-- Post Box 1 -->
+        <div class="post-box">
+            <img src="img/apple.jpg" alt="" class="post-img">
+            <h2 class="category">Mobile</h2>
+            <a href="post-page.html" class="post-title">Apple</a>
+            <p class="post-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minus
+                voluptatibus, voluptas magni mollitia nulla soluta voluptates libero qui optio ratione dolor adipisci ad
+                sapiente?</p>
+        </div>
+        <!-- Post Box 2 -->
+        <div class="post-box">
+            <img src="img/samsung.png" alt="" class="post-img">
+            <h2 class="category">Mobile</h2>
+            <a href="post-page2.html" class="post-title">Samsung </a>
+            <p class="post-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minus
+                voluptatibus, voluptas magni mollitia nulla soluta voluptates libero qui optio ratione dolor adipisci ad
+                sapiente?</p>
+        </div>
+        <!-- Post Box 3 -->
+        <div class="post-box">
+            <img src="img/google.jpg" alt="" class="post-img">
+            <h2 class="category">Mobile</h2>
+            <a href="post-page3.html" class="post-title">Google </a>
+            <p class="post-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minus
+                voluptatibus, voluptas magni mollitia nulla soluta voluptates libero qui optio ratione dolor adipisci ad
+                sapiente?</p>
+        </div>
+        <!-- Post Box 4 -->
+        <div class="post-box">
+            <img src="img/nokia.jpg" alt="" class="post-img">
+            <h2 class="category">Mobile</h2>
+            <a href="post-page11.html" class="post-title">Nokia </a>
+            <p class="post-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minus
+                voluptatibus, voluptas magni mollitia nulla soluta voluptates libero qui optio ratione dolor adipisci ad
+                sapiente?</p>
+        </div>
+    </section>
+    <a href="blog.html"><button class="btn-view">View More Blogs</button></a>
+    <!-- Footer -->
+    <div class="footer container">
+        <p>&#169; Piyo All Right Reserved</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </div>
+    <!-- Link TO JS -->
+    <script src="js/main.js"></script>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
