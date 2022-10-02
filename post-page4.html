@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Page</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <a href="index.html" class="logo">Piyo</a>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+        </div>
+    </header>
+    <!-- Post Content -->
+    <section class="post-header">
+        <div class="header-content post-container">
+            <!-- Back To Home -->
+            <a href="index.html" class="back-home">Back To Home</a>
+            <!-- Title -->
+            <h1 class="header-title">Huawei</h1>
+            <!-- Post Image -->
+            <a href="#img1">
+                <img src="img/huawei.png" alt="" class="header-img">
+            </a>
+            <a href="#" class="lightbox" id="img1">
+                <img src="img/huawei.png" alt="">
+            </a>
+        </div>
+    </section>
+
+
+
+    <!-- Posts -->
+    <section class="post-content post-container">
+        <h2 class="sub-heading">Best Phones</h2>
+        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, autem debitis ex repellat
+            fugiat placeat magnam voluptatem inventore cum sed, reiciendis eos voluptatum, quia eius dolore incidunt
+            numquam voluptates laboriosam delectus doloribus consequuntur beatae pariatur. Sequi consectetur quibusdam
+            nulla voluptates dolor dolorem perspiciatis quia perferendis!</p>
+        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, autem debitis ex repellat
+            fugiat placeat magnam voluptatem inventore cum sed, reiciendis eos voluptatum, quia eius dolore incidunt
+            numquam voluptates laboriosam delectus doloribus consequuntur beatae pariatur. Sequi consectetur quibusdam
+            nulla voluptates dolor dolorem perspiciatis quia perferendis!</p>
+        <h2 class="sub-heading">Worst Phones</h2>
+        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, autem debitis ex repellat
+            fugiat placeat magnam voluptatem inventore cum sed, reiciendis eos voluptatum, quia eius dolore incidunt
+            numquam voluptates laboriosam delectus doloribus consequuntur beatae pariatur. Sequi consectetur quibusdam
+            nulla voluptates dolor dolorem perspiciatis quia perferendis!</p>
+        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, autem debitis ex repellat
+            fugiat placeat magnam voluptatem inventore cum sed, reiciendis eos voluptatum, quia eius dolore incidunt
+            numquam voluptates laboriosam delectus doloribus consequuntur beatae pariatur. Sequi consectetur quibusdam
+            nulla voluptates dolor dolorem perspiciatis quia perferendis!</p>
+        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, autem debitis ex repellat
+            fugiat placeat magnam voluptatem inventore cum sed, reiciendis eos voluptatum, quia eius dolore incidunt
+            numquam voluptates laboriosam delectus doloribus consequuntur beatae pariatur. Sequi consectetur quibusdam
+            nulla voluptates dolor dolorem perspiciatis quia perferendis!</p>
+    </section>
+    <!-- Footer -->
+    <div class="footer container">
+        <p>&#169; Piyo All Right Reserved</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </div>
+    <!-- Link TO JS -->
+    <script src="js/main.js"></script>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
