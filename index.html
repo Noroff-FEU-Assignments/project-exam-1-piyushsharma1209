@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Box Icons -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' rel='stylesheet'>
     <!-- Hotjar Tracking Code for https://prismatic-bubblegum-a80871.netlify.app/ -->
     <script>
         (function (h, o, t, j, a, r) {
@@ -46,7 +47,7 @@
         </div>
     </section>
     <!-- Posts -->
-    <section class="post container">
+    <section class="post-container owl-carousel">
         <!-- Post Box 1 -->
         <div class="post-box">
             <img src="img/apple.jpg" alt="" class="post-img">
@@ -83,6 +84,42 @@
                 voluptatibus, voluptas magni mollitia nulla soluta voluptates libero qui optio ratione dolor adipisci ad
                 sapiente?</p>
         </div>
+        <!--- Post Box 5 -->
+        <div class="post-box">
+            <img src="img/oneplus.jpg" alt="" class="post-img">
+            <h2 class="category">Mobile</h2>
+            <a href="post-page5.html" class="post-title">OnePlus </a>
+            <p class="post-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minus
+                voluptatibus, voluptas magni mollitia nulla soluta voluptates libero qui optio ratione dolor adipisci ad
+                sapiente?</p>
+        </div>
+        <!-- Post Box 6 -->
+        <div class="post-box">
+            <img src="img/oppo.jpg" alt="" class="post-img">
+            <h2 class="category">Mobile</h2>
+            <a href="post-page6.html" class="post-title">Oppo </a>
+            <p class="post-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minus
+                voluptatibus, voluptas magni mollitia nulla soluta voluptates libero qui optio ratione dolor adipisci ad
+                sapiente?</p>
+        </div>
+        <!-- Post Box 7 -->
+        <div class="post-box">
+            <img src="img/sony.webp" alt="" class="post-img">
+            <h2 class="category">Mobile</h2>
+            <a href="post-page7.html" class="post-title">Sony </a>
+            <p class="post-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minus
+                voluptatibus, voluptas magni mollitia nulla soluta voluptates libero qui optio ratione dolor adipisci ad
+                sapiente?</p>
+        </div>
+        <!-- Post Box 8 -->
+        <div class="post-box">
+            <img src="img/motorola.webp" alt="" class="post-img">
+            <h2 class="category">Mobile</h2>
+            <a href="post-page8.html" class="post-title">Motorola </a>
+            <p class="post-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minus
+                voluptatibus, voluptas magni mollitia nulla soluta voluptates libero qui optio ratione dolor adipisci ad
+                sapiente?</p>
+        </div>
     </section>
     <a href="blog.html"><button class="btn-view">View More Blogs</button></a>
     <!-- Footer -->
@@ -105,6 +142,36 @@
             navlinks.classList.toggle('mobile-menu')
         })
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $('.post-container').owlCarousel({
+                pagination: false,
+                autoplay: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    300: {
+                        items: 2
+                    },
+                    700: {
+                        items: 3
+                    },
+                    1200: {
+                        items: 4
+                    },
+                }
+            })
+
+        });
+    </script>
+
+
 
 </body>
 
