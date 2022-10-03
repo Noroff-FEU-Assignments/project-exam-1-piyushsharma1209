@@ -404,14 +404,6 @@ header {
     padding: 0px;
   }
 }
-@media (max-width: 360px) {
-  .shop {
-    margin-top: 1rem !important;
-  }
-  .cart {
-    width: 280px;
-  }
-}
 
 .navbar {
   display: flex;
