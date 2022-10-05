@@ -417,6 +417,9 @@ header {
 .navbar a:hover {
   color: var(--second-color);
 }
+.navbar .active {
+  color: var(--second-color);
+}
 #menu-icon {
   display: none;
 }
