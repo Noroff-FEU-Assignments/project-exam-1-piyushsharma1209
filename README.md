@@ -2,17 +2,18 @@
 
 ![image](img/piyopage.png)
 
-A simple overview of the use/purpose of the project.
+Homepage
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+This project is for exam at my school. In this project i have made e website for a blog page with shows reviews for mobile phones from various brands. 
 
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+- Homepage
+- Contact page with requirments
+- Carousel on homepage
+- About page
+- Blog page
+- Specific blog page
 
 ## Built With
 
