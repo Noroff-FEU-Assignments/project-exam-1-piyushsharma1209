@@ -27,7 +27,7 @@ You can list a the tech stack that you've used over here
 
 ```bash
 https://teal-platypus-d9b7d1.netlify.app/
-
+```
 
 ## Getting Started
 
